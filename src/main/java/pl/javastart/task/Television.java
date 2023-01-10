@@ -9,7 +9,7 @@ public class Television {
     }
 
     void turnOff() {
-        televisionOn = !televisionOn;
+        televisionOn = false;
         System.out.println("Telewizor został wyłączony");
     }
 
